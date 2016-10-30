@@ -3,9 +3,9 @@
     mysql_connect("localhost","root","");
     mysql_select_db("manage");
    if(isset($_POST['signUp'])){
-      $name = $_POST['userNameUp'];
-      $email = $_POST['userEmailUp'];
-      $password = $_POST['userPasswordUp'];
+      $name = $_POST['userNameIp'];
+      $email = $_POST['userEmailIp'];
+      $password = $_POST['userPasswordIp'];
      
       
 

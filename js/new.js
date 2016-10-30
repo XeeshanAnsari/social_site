@@ -1,6 +1,9 @@
+           var imgCount = 1;
+            var total = 6 ;
  window.setInterval(function slideA() {
+            
             var image = document.getElementById("mainContainer");
-            imgCount = imgCount + 1;
+            imgCount++ ;
             if(imgCount < 1){
                 imgCount = total;
             }
@@ -8,8 +11,7 @@
                 imgCount = 1;
             }
             else{
-                var path  = "../image/img" + imgCount + ".jpg";
-                 image.backgroundColor = "blue";
+                image.style.backgroundImage = 'url(./image/slider/img'+ imgCount + '.jpg)';
             }
               
         },3000);

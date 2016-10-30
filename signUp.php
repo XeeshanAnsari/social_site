@@ -5,16 +5,17 @@
     <title>Sign UP</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src = "./js/new.js"></script>
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     
 </head>
 <body onload="slideA();">
          <!-- Navbar Start -->
-        <div class="">
+        <div >
             <nav class="navbar navbar-default">
                 <div class="container">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav ">
                        <li><a href="#">Home</a></li>
                        <li><a href="#">About</a></li>
                      </ul>
@@ -27,17 +28,19 @@
           
         <div id="mainContainer">
             <div class="container" id="center">
-                
+
+               
                 <div class="col-md-7">
-                   <div class="container">
-                       <h2>Wellcome to Public School</h2>
-                       <p>jdskudsgviuglaliyafdlvguliua libiygiyvcgd;sligligoihfog;cpgis</p>
+                   <div  id ="welcomeTag">
+                       <h1>Wellcome to Our Site</h1>
+                       <p>firendship coner for those who is interesrt in chating</p>
                    </div>
                 </div>
-                <div class="col-md-5"> 
+                 
+                <div class="col-md-4"> 
                    
-                    <div  id="signInBox">
-                        <form action="">
+                    <div  id="signInBox" >
+                        <form action="./database/signin.php" method="post">
                             <input type="text" name="userNameIn" id="userNameInput" placeholder="Email or user name"><br>
                             <input type="text" name="userPasswordIn" id="userPassInput" placeholder="Password">
                             <button class="btn btn-primary btn-sm signInButton" name="login"  ><b>Log in</b></button>
@@ -55,6 +58,7 @@
                          </form> 
                     </div>
                    <div>
+                  
                        <p></p>
                    </div>
                 </div>

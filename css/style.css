@@ -1,11 +1,27 @@
+
 /*  signUp page working end here   */
+body{
+    margin: 0px;
+    padding: 0px;
+}
 #mainContainer{
-            height: 500px;
-            width: 100%;
-               
+            height: 625px;
+             width: 100%;
+             background-image: url(../image/slider/img1.jpg);
+             background-attachment: fixed;
+             background-size: cover;
+             margin: 0px;
+             margin-top: -20px;  
+}
+#welcomeTag{
+    color: white;
+    padding: 20px 10%;
+    font-size: 130%;
+    text-align: center;
+    
 }
 #center{
-    padding: 120px 150px;
+    padding: 120px 0px;
 }
 #signInBox , #signUpBox{
     width: 90%;
