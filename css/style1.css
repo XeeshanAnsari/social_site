@@ -14,7 +14,6 @@ body{
 #left-box{
     width: 100%; 
     background-color: #F5F8FA;
-    float: left;
 }
 .profile{
     width: 100%;
@@ -56,3 +55,50 @@ body{
 
 
 /*  left side Body   end */
+
+
+/*  left side group div   */
+.group-box{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-radius: 5px 5px;
+    margin-top: 16px;
+    padding: 10px 5%;
+   
+}
+.group-trend a{
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8em;
+}
+.trend{
+    color: gray;   
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E1E8ED ;
+    
+}
+.group-link{
+    width: 100%;
+    height: 35px;
+    margin: 4px 0px;
+    font-size: 89%;
+}
+.group-link a{
+    text-decoration: none;
+    color: #0084C4;
+    font-weight: bold;
+}
+.group-link a:hover{
+    text-decoration: none;
+    color: #0084C4;
+    font-weight: bold;
+}
+.group-link p{
+    margin-top: 0px;
+    color: #A599A6;
+    
+}
+
+/*  left side group div   */
