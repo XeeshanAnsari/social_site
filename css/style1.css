@@ -4,14 +4,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F5F8FA;  
 }
-
-
+#header{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.mainBox{
+    background-color: #F5F8FA;
+    padding: 20px;
+   
+}
 /*  left side Body   */
 
 
 #left-box{
     width: 100%; 
-    background-color: white;
+    background-color: #F5F8FA;
 }
 .profile{
     width: 100%;
@@ -100,3 +108,116 @@ body{
 }
 
 /*  left side group div   */
+
+
+
+
+/*  center side Body   */
+.post-box{
+   
+    background-color:#E5F2F7 ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2px 0% ;
+    border: 1px solid #E1E8ED;
+}
+
+.view-new-post{
+    width:100%;
+    padding: 10px;
+    color: #0084B4;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    text-align: center;
+    
+}
+.post{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-top: 0px;
+    padding: 10px 2%;
+}
+.post:hover{
+    background-color: #F5F8FA;
+}
+
+
+.retweeted{
+    font-size: 90%; 
+}
+.retweeted span{
+    color: #8899A6;
+}
+.retweeted a{
+    text-decoration: none;   
+}
+.retweeted a:hover{
+    text-decoration: underline;
+    color: #008FC6;
+}
+.fa-retweet{
+    color: #49CF86;
+    margin: 0px 1% 0px 5%;;
+}
+.fa-heart{
+    color: red;
+}
+
+
+.post-identify{
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.post-img img,.post-identify img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 5px;
+    vertical-align: text-top;
+}
+#post-second{
+    padding-left: 20px;
+}
+.name-user:link{
+     font-weight: bold;
+     color: #574239;
+     text-decoration: none; 
+}
+.name-user:hover{
+     color: #0084B4; 
+    text-decoration:  underline;
+}
+.group-name{
+     color: #9A99AE;
+     font-size: 80%;
+}
+.post-image{
+    margin-top: 20px;
+}
+
+
+.post-image img{
+    width: 100%;
+    height: 370px;
+    border: 1px solid #E1E8ED;
+    border-radius:  5px 5px;
+}
+.post-footer{
+    width: 100%;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+.post-footer .fa{
+    color: #8899A6;
+    margin-right: 40px;
+}
+.post-footer .fa-reply:hover{
+    color: #0084C4;
+}
+.post-footer  .fa-retweet:hover{
+    color: green;
+}
+.post-footer .fa-heart:hover{
+    color: red;
+}
