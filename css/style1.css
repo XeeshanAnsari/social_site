@@ -1,19 +1,17 @@
 body{
     padding: 0px;
     margin: 0px;
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F8FA;  
 }
-.mainContainer{
-    background-color: #0084B4;  
-   
-}
+
 
 /*  left side Body   */
 
 
 #left-box{
     width: 100%; 
-    background-color: #F5F8FA;
+    background-color: white;
 }
 .profile{
     width: 100%;
@@ -74,7 +72,7 @@ body{
 }
 .trend{
     color: gray;   
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     margin-bottom: 10px;
     border-bottom: 1px solid #E1E8ED ;
     
