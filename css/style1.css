@@ -113,6 +113,8 @@ body{
 
 
 /*  center side Body   */
+
+/*  post write Body   */
 .post-box{
    
     background-color: #ffffff ;
@@ -168,15 +170,28 @@ body{
     font-weight: bold;
     margin:  10px 10px 0px 0px;
 }
+
+
+
+/*  post write Body end  */
+
+/*  new post Body   */
 .view-new-post{
     width:100%;
     padding: 10px;
     color: #0084B4;
     background-color: #F5F8FA;
     border: 1px solid #E1E8ED;
-    text-align: center;
-    
+    text-align: center;   
 }
+.view-new-post a:hover{
+    color: #0084B4;
+    text-decoration: underline;
+}
+
+
+
+/*  all post Body   */
 .post{
     width: 100%;
     background-color: white;
@@ -195,7 +210,7 @@ body{
     vertical-align: text-top;
 }
 #post-second{
-    padding-left: 20px;
+    padding-left: 22px;
     
 }
 .name-user:link{
@@ -240,3 +255,6 @@ body{
 .post-footer .fa-heart:hover{
     color: red;
 }
+
+
+/*  all post Body end  */
