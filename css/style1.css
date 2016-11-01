@@ -11,7 +11,7 @@ body{
 }
 .mainBox{
     background-color: #F5F8FA;
-    padding: 20px;
+    padding: 30px;
    
 }
 /*  left side Body   */
@@ -258,3 +258,101 @@ body{
 
 
 /*  all post Body end  */
+
+
+/*  gmail side box   */
+.find-gmail{
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    padding: 10px 5%;
+}
+.gmail-contact{
+    padding: 5px;
+    line-height: 1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E1E8ED;
+}
+.gmail-image img{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px 3px;
+    border: 1px solid #E1E8ED;
+}
+.gmail-text{
+    padding: 5px;
+}
+.find-people-text{
+    color: black;
+    font-weight: bold;
+    
+}
+.import-contact-text{
+    font-size: 80%;
+    color: gray;
+}
+.connect-another{
+   padding-top: 5px;
+   text-align: center; 
+}
+.connect-another a{ 
+    text-decoration: none;
+    color: #1DA1F2;
+}
+.connect-another a:link{ 
+    text-decoration: none;
+    color: #1DA1a4;
+}
+.connect-another a:hover{ 
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+/*  gmail side box  end */
+
+/*  about and advertise box */
+.about-twitter{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    padding: 15px 5%;
+    margin-top: 10px;
+    font-size: 85%;
+    text-align: justify;
+    color: #969CBC;
+}
+.about-twitter a{
+    color: #969CBC;
+    text-decoration: none;
+    padding: 2px 2px; 
+}
+.about-twitter a:hover{
+    color: #969CBC;
+    text-decoration: none;
+    padding: 2px 2px; 
+}
+.advertise-box{
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    text-align: center;
+    padding: 10px 5%;
+}
+.advertise-box a{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.advertise-box a:link{
+    color: cadetblue;
+    text-decoration: none;
+}
+.advertise-box a:hover{
+   color: #1DA1F2;
+    text-decoration: none;
+}
