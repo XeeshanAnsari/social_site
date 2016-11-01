@@ -115,13 +115,59 @@ body{
 /*  center side Body   */
 .post-box{
    
-    background-color:#E5F2F7 ;
+    background-color: #ffffff ;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 2px 0% ;
+    padding: 10px 0%;
     border: 1px solid #E1E8ED;
 }
+#photo-select{
+     margin: 0px 20px;
+     padding: 10px 0px 15px 0px; 
+     border-bottom:  1px solid #E1E8ED; 
+}
+#photo-select div{
+    border-left:  2px solid #E1E8ED; 
+}
+#poxt-write{
+    width: 100%;
+    border-bottom: 1px solid #E1E8ED;
+    padding: 10px 20px;
+    float: left;
+    
+}
+.float-left{
+    float: left;
+}
+.post-write-img{
+    
+}
+.post-write-img img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.post-write-field{
+    width: 80%;
+}
+#post-text{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    font-size: 150%;
+    padding: 10px;
+}
 
+.post-btn-tag{
+    
+    padding-right:   10px ;
+    
+}
+#post-btn{
+    width: 100%;
+    font-weight: bold;
+    margin:  10px 10px 0px 0px;
+}
 .view-new-post{
     width:100%;
     padding: 10px;
@@ -142,35 +188,7 @@ body{
     background-color: #F5F8FA;
 }
 
-
-.retweeted{
-    font-size: 90%; 
-}
-.retweeted span{
-    color: #8899A6;
-}
-.retweeted a{
-    text-decoration: none;   
-}
-.retweeted a:hover{
-    text-decoration: underline;
-    color: #008FC6;
-}
-.fa-retweet{
-    color: #49CF86;
-    margin: 0px 1% 0px 5%;;
-}
-.fa-heart{
-    color: red;
-}
-
-
-.post-identify{
-    width: 100%;
-    margin-top: 5px;
-    
-}
-.post-img img,.post-identify img{
+.post-img img{
     width: 50px;
     height: 50px;
     border-radius: 5px 5px;
@@ -178,6 +196,7 @@ body{
 }
 #post-second{
     padding-left: 20px;
+    
 }
 .name-user:link{
      font-weight: bold;
