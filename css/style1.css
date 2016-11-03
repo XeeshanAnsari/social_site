@@ -1,10 +1,16 @@
 body{
+    font-size: 100%;
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F8FA;  
+    background-color: #F5F8FA; 
+    position: absolute;
 }
-
+#mainContainerDiv{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
 #header{
     padding: 0px;
     margin: 0px;
@@ -25,17 +31,18 @@ body{
 }
 
 #form-control{
-    width: 235%;
+    width: 92%;
     padding: 5px;
-    margin: 0px;
+    margin: 10px 0px;
     border: 1px solid #8899A6;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 #btn-search{
+    width: 8%;
     float: right;
-    padding: 5px 10px; 
-    margin: 0px;
+    padding:  5px; 
+    margin: 10px 0px;
     background-color: #0084C4;
     border: 1px solid #0084C4;
     color: white;
@@ -48,13 +55,13 @@ body{
 #user-id  , #user-home  , .header-logo {
      width: 22%;
      float: left;
-     padding: 5px 10px;
-     margin: 10px 5px;
+     padding: 5px 1%;
+     margin: 10px 2%;
      color: white;
      border-radius: 3px;     
 }
 #user-home{
-    width: 15%;
+    width: 12%;
 }
 #user-id:hover , #user-home:hover {
       background-color: #0084C4;
@@ -76,7 +83,7 @@ body{
     border: 0px;
 }
 .header-logo a:link{
-    margin: 0px 5px;
+    margin: 0px 3%;
     color: #0a55C4;
     font-size: 1.5em;
 }
@@ -206,6 +213,9 @@ body{
 }
 #photo-select div{
     border-left:  2px solid #E1E8ED; 
+}
+#photo-select div > a:hover{
+    text-decoration: none;
 }
 #poxt-write{
     width: 100%;
@@ -346,7 +356,7 @@ body{
     padding: 10px 5%;
 }
 .gmail-contact{
-    padding: 5px;
+    padding: 2%;
     line-height: 1.2;
     padding-bottom: 10px;
     border-bottom: 1px solid #E1E8ED;
@@ -358,9 +368,11 @@ body{
     border: 1px solid #E1E8ED;
 }
 .gmail-text{
-    padding: 5px;
+    padding: 2%;
 }
 .find-people-text{
+    width: 100%;
+    font-size: 100%;
     color: black;
     font-weight: bold;
     
