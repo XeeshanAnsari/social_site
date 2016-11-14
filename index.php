@@ -31,7 +31,7 @@
                              
                     
                     
-                    <a href="#" class="navbar-link "><p id="user-id"><img src="./image" alt="" id="user-id-img">xeeshan</p></a>
+                    <a href="#" class="navbar-link "><p id="user-id"><img src="./image" alt="" id="user-id-img"><?php echo @$_GET['user_name'];?></p></a>
                     <a href="#" class="navbar-link "><p class="navbar-link  " id="user-home">Home</p></a>
                      <span class="header-logo  ">
                  
@@ -73,8 +73,8 @@
                               <div class="col-md-3">
                                   
                               </div>
-                              <div class="col-md-9"><p><b>XeeshanAnsari</b><br> 
-                              @zeeshanansari31</p>
+                              <div class="col-md-9"><p><b><?php echo @$_GET['user_name'];?></b><br><br> 
+                              </p>
                               </div>
                               <div class="tweet profile-rate col-md-4">POST<br><b>0</b></div>
                               <div class="following profile-rate col-md-4">FOLLOWING<br><b>0</b></div>
@@ -156,7 +156,7 @@
              
                
                   <div class="post-box" >
-                        
+                     <form action="./database/post.php" method="post">
                         <div class="row " id="photo-select">
                             <div class="col-md-4 ">
                                 <a href="#" class="glyphicon glyphicon-camera"> photo/video</a>
@@ -174,7 +174,7 @@
                                                             
                             </div>
                             <div class="float-left post-write-field">
-                                <textarea name="" id="post-text"  placeholder="What's on your mind?"></textarea>
+                                <textarea name="post_write" id="post-text"  placeholder="What's on your mind?"></textarea>
                             </div>
                         </div>  
                         
@@ -183,11 +183,10 @@
                                 
                             </div>
                             <div class="col-md-2">
-                                <input type="submit" value="post" class="btn btn-primary btn-sm" id="post-btn">
+                                <input type="submit" name="post" value="post" class="btn btn-primary btn-sm" id="post-btn">
                             </div>
                         </div>        
-                           
-                                       
+                      </form>                       
                    </div>
                     <div class="view-new-post" >
                          <a href="#">View More Post</a>
